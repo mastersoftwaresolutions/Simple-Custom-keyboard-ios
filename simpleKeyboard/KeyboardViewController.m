@@ -63,7 +63,7 @@
     [self.view addSubview:button3];
     
     UIButton *button4=[[UIButton alloc] initWithFrame:CGRectMake(210, 60, 100, 100)];
-    button4.tag=3333;
+    button4.tag=4444;
     button4.backgroundColor=[UIColor clearColor];
     [button4 setTitle:@"K" forState:UIControlStateNormal];
     [button4 setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
@@ -79,13 +79,13 @@
 -(void)keyBoardButtonClick:(UIButton *)sender
 {
     if (sender.tag==1111) {
-        [self.textDocumentProxy insertText:@"J"];
+        [self.textDocumentProxy insertText:@"ⒶⒷⒸⒹ"];
     }else if (sender.tag==2222)
     {
-        [self.textDocumentProxy insertText:@"R"];
+        [self.textDocumentProxy insertText:@"⒜⒝⒞⒟"];
     }else if (sender.tag==3333)
     {
-        [self.textDocumentProxy insertText:@"K"];
+        [self.textDocumentProxy insertText:@"ǨƘǩȵȐ"];
     }
 }
 
